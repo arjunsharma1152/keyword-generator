@@ -15,7 +15,7 @@ const App = () => {
     setLoading(true);
     setIsOpen(true);
 
-    const res = await fetch('https://api.openai.com/v1/chat/completions',{  
+    const res = await fetch('https://api.openai.com/v1/completions',{  
     method: 'POST',
       headers: {
         'Content-Type' : 'application/json',
