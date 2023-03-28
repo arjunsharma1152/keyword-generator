@@ -19,7 +19,7 @@ const App = () => {
     method: 'POST',
       headers: {
         'Content-Type' : 'application/json',
-        Authorisation: `Bearer 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`
+        Authorization: `Bearer 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`
       },
       body: JSON.stringify({
         model: 'text-davinci-003',
